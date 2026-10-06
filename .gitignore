@@ -1,0 +1,37 @@
+# Never commit actual findings, exploit code, or report drafts
+findings/
+reports/
+drafts/
+poc/
+exploits/
+*.poc
+*.exploit
+
+# No binary files or captured crash data
+*.bin
+*.trace
+*.core
+core.*
+crash_*
+gdb_session_*.log
+
+# No test data or result directories
+testrun*/
+/tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
